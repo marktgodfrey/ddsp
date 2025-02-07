@@ -40,25 +40,25 @@ setuptools.setup(
         'absl-py',
         'apache-beam',
         'cloudml-hypertune<=0.1.0.dev6',
-        'crepe<=0.0.12',
+        'crepe',
         'dill<=0.3.4',
         'future',
         'gin-config>=0.3.0',
         'google-cloud-storage',
-        'hmmlearn<=0.2.7',
+        'hmmlearn',
         'librosa<=0.10',
         'pydub<=0.25.1',
-        'protobuf<=3.20',  # temporary fix for proto dependency bug
+        'protobuf',  # temporary fix for proto dependency bug
         'mir_eval<=0.7',
-        'note_seq<0.0.4',
+        'note_seq',
         'numpy<1.24',
         'scipy<=1.10.1',
         'six',
-        'tensorflow<=2.11',
+        'tensorflow<=2.18',
         'tensorflowjs<3.19',
         'tensorflow-probability<=0.19',
         'tensorflow-datasets<=4.9',
-        'tflite_support<=0.1'
+        'tflite_support'
     ],
     extras_require={
         'gcp': [
