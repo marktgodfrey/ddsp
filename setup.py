@@ -56,7 +56,7 @@ setuptools.setup(
         'six',
         'tensorflow<=2.18',
         'tensorflowjs<3.19',
-        'tensorflow-probability<=0.19',
+        'tensorflow-probability<=0.25',
         'tensorflow-datasets<=4.9',
         'tflite_support'
     ],
