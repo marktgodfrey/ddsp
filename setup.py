@@ -54,7 +54,7 @@ setuptools.setup(
         'numpy<1.24',
         'scipy<=1.10.1',
         'six',
-        'tensorflow<=2.18',
+        'tensorflow==2.18',
         'tensorflowjs<3.19',
         'tensorflow-probability<=0.25',
         'tensorflow-datasets<=4.9',
